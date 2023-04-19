@@ -1,6 +1,6 @@
 module github.com/liu602348184/go-captcha
 
-go 1.20
+go 1.18
 
 require (
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
