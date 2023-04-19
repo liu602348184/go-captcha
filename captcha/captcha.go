@@ -195,9 +195,7 @@ func (cc *Captcha) SetImageSize(size Size) {
  * @param val
  */
 func (cc *Captcha) SetImageQuality(val int) {
-	if val == QualityCompressNone || (val <= QualityCompressLevel1 && val >= QualityCompressLevel5) {
-		cc.config.imageQuality = val
-	}
+	cc.config.imageQuality = val
 }
 
 // SetThumbSize is a function
