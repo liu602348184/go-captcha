@@ -535,7 +535,7 @@ func (cc *Captcha) GenerateWithSize(imageSize Size, thumbnailSize Size) (map[int
  * @return string
  */
 func (cc *Captcha) EncodeB64stringWithJpeg(img image.Image) string {
-	if cc.config.imageQuality <= QualityCompressLevel1 && cc.config.imageQuality >= QualityCompressLevel1{
+	if cc.config.imageQuality <= QualityCompressLevel1 {
 		return EncodeB64stringWithJpeg(img, cc.config.imageQuality)
 	}
 	return EncodeB64stringWithPng(img)
