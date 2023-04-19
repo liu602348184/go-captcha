@@ -2,12 +2,12 @@
 <img width="120" style="padding-top: 50px; margin: 0;" src="http://47.104.180.148/go-captcha/gocaptcha_logo.svg"/>
 <h1 style="margin: 0; padding: 0">Go Captcha</h1>
 <p>行为式安全验证码</p>
-<a href="https://goreportcard.com/report/github.com/wenlng/go-captcha"><img src="https://goreportcard.com/badge/github.com/wenlng/go-captcha"/></a>
-<a href="https://godoc.org/github.com/wenlng/go-captcha"><img src="https://godoc.org/github.com/wenlng/go-captcha?status.svg"/></a>
-<a href="https://github.com/wenlng/go-captcha/releases"><img src="https://img.shields.io/github/v/release/wenlng/go-captcha.svg"/></a>
-<a href="https://github.com/wenlng/go-captcha/blob/master/LICENSE"><img src="https://img.shields.io/github/license/wenlng/go-captcha.svg"/></a>
-<a href="https://github.com/wenlng/go-captcha"><img src="https://img.shields.io/github/stars/wenlng/go-captcha.svg"/></a>
-<a href="https://github.com/wenlng/go-captcha"><img src="https://img.shields.io/github/last-commit/wenlng/go-captcha.svg"/></a>
+<a href="https://goreportcard.com/report/github.com/liu602348184/go-captcha"><img src="https://goreportcard.com/badge/github.com/liu602348184/go-captcha"/></a>
+<a href="https://godoc.org/github.com/liu602348184/go-captcha"><img src="https://godoc.org/github.com/liu602348184/go-captcha?status.svg"/></a>
+<a href="https://github.com/liu602348184/go-captcha/releases"><img src="https://img.shields.io/github/v/release/wenlng/go-captcha.svg"/></a>
+<a href="https://github.com/liu602348184/go-captcha/blob/master/LICENSE"><img src="https://img.shields.io/github/license/wenlng/go-captcha.svg"/></a>
+<a href="https://github.com/liu602348184/go-captcha"><img src="https://img.shields.io/github/stars/wenlng/go-captcha.svg"/></a>
+<a href="https://github.com/liu602348184/go-captcha"><img src="https://img.shields.io/github/last-commit/wenlng/go-captcha.svg"/></a>
 </div>
 
 <br/>
@@ -15,15 +15,15 @@
 > [English](README.md) | 中文
 
 <p>
-<a href="https://github.com/wenlng/go-captcha">Go Captcha</a> 是一个简洁易用、交互友好、高安全性的 "行为式验证码" Go 库 ，采用 “验证码展示-采集用户行为-验证行为数据” 为流程，用户无需键盘手动输入，极大优化传统验证码用户体验不佳的问题，支持 PC 端及移动端，支持前端 Vue、React...等项目。
+<a href="https://github.com/liu602348184/go-captcha">Go Captcha</a> 是一个简洁易用、交互友好、高安全性的 "行为式验证码" Go 库 ，采用 “验证码展示-采集用户行为-验证行为数据” 为流程，用户无需键盘手动输入，极大优化传统验证码用户体验不佳的问题，支持 PC 端及移动端，支持前端 Vue、React...等项目。
 </p>
 
 <p> ⭐️ 如果能帮助到你，记得随手给点一个star。</p>
 
-- Github：[https://github.com/wenlng/go-captcha](https://github.com/wenlng/go-captcha)
-- 后端Go实例：[https://github.com/wenlng/go-captcha-example](https://github.com/wenlng/go-captcha-example)
-- 前端Vue实例：[https://github.com/wenlng/go-captcha-vue](https://github.com/wenlng/go-captcha-vue)
-- 前端React实例：[https://github.com/wenlng/go-captcha-react](https://github.com/wenlng/go-captcha-react)
+- Github：[https://github.com/liu602348184/go-captcha](https://github.com/liu602348184/go-captcha)
+- 后端Go实例：[https://github.com/liu602348184/go-captcha-example](https://github.com/liu602348184/go-captcha-example)
+- 前端Vue实例：[https://github.com/liu602348184/go-captcha-vue](https://github.com/liu602348184/go-captcha-vue)
+- 前端React实例：[https://github.com/liu602348184/go-captcha-react](https://github.com/liu602348184/go-captcha-react)
 - 在线演示：[http://47.104.180.148:8081/go_captcha_demo](http://47.104.180.148:8081/go_captcha_demo)
 
 <br/>
@@ -66,14 +66,14 @@ $ go get -u golang.org/x/image
 
 ## 安装模块
 ```shell
-$ go get -u github.com/wenlng/go-captcha/captcha
+$ go get -u github.com/liu602348184/go-captcha/captcha
 ```
 
 ## 引入模块
 ```go
 package main
 
-import "github.com/wenlng/go-captcha/captcha"
+import "github.com/liu602348184/go-captcha/captcha"
 
 func main(){
    // ....
@@ -85,7 +85,7 @@ func main(){
 package main
 import (
     "fmt"
-    "github.com/wenlng/go-captcha/captcha"
+    "github.com/liu602348184/go-captcha/captcha"
 )
 
 func main(){
@@ -120,7 +120,7 @@ func main(){
 package main
 import (
     "fmt"
-    "github.com/wenlng/go-captcha/captcha"
+    "github.com/liu602348184/go-captcha/captcha"
 )
 
 func main(){
@@ -145,7 +145,7 @@ v1.2.3版本后大图默认尺寸为：300×240px，小图默认尺寸为：150�
 package main
 import (
     "fmt"
-    "github.com/wenlng/go-captcha/captcha"
+    "github.com/liu602348184/go-captcha/captcha"
 )
 
 func main(){
@@ -173,13 +173,13 @@ func main(){
 ```
 
 #### 设置字体文件
-你可以拷贝实例仓库中 "https://github.com/wenlng/go-captcha-example/tree/main/resources" 的图片资源和字体文件到你的项目中使用。
+你可以拷贝实例仓库中 "https://github.com/liu602348184/go-captcha-example/tree/main/resources" 的图片资源和字体文件到你的项目中使用。
 ```go
 package main
 import (
     "fmt"
     "os"
-    "github.com/wenlng/go-captcha/captcha"
+    "github.com/liu602348184/go-captcha/captcha"
 )
 
 func main(){
@@ -203,7 +203,7 @@ import (
     "fmt"
     "os"
     "golang.org/x/image/font"
-    "github.com/wenlng/go-captcha/captcha"
+    "github.com/liu602348184/go-captcha/captcha"
 )
 
 func main(){
@@ -310,7 +310,7 @@ package main
 import (
     "fmt"
     "os"
-    "github.com/wenlng/go-captcha/captcha"
+    "github.com/liu602348184/go-captcha/captcha"
 )
 
 func main(){
@@ -396,7 +396,7 @@ package main
 import (
     "fmt"
     "os"
-    "github.com/wenlng/go-captcha/captcha"
+    "github.com/liu602348184/go-captcha/captcha"
 )
 
 func main(){    
@@ -431,7 +431,7 @@ package main
 import (
     "fmt"
     "os"
-    "github.com/wenlng/go-captcha/captcha"
+    "github.com/liu602348184/go-captcha/captcha"
 )
 
 func main(){

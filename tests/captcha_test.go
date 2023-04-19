@@ -9,7 +9,7 @@ package main
 import (
 	"encoding/base64"
 	"fmt"
-	"github.com/wenlng/go-captcha/captcha"
+	"github.com/liu602348184/go-captcha/captcha"
 	"io"
 	"log"
 	"os"

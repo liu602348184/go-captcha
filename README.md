@@ -2,26 +2,26 @@
 <img width="120" style="padding-top: 50px; margin: 0;" src="http://47.104.180.148/go-captcha/gocaptcha_logo.svg"/>
 <h1 style="margin: 0; padding: 0">Go Captcha</h1>
 <p>Behavior Security Captcha</p>
-<a href="https://goreportcard.com/report/github.com/wenlng/go-captcha"><img src="https://goreportcard.com/badge/github.com/wenlng/go-captcha"/></a>
-<a href="https://godoc.org/github.com/wenlng/go-captcha"><img src="https://godoc.org/github.com/wenlng/go-captcha?status.svg"/></a>
-<a href="https://github.com/wenlng/go-captcha/releases"><img src="https://img.shields.io/github/v/release/wenlng/go-captcha.svg"/></a>
-<a href="https://github.com/wenlng/go-captcha/blob/master/LICENSE"><img src="https://img.shields.io/github/license/wenlng/go-captcha.svg"/></a>
-<a href="https://github.com/wenlng/go-captcha"><img src="https://img.shields.io/github/stars/wenlng/go-captcha.svg"/></a>
-<a href="https://github.com/wenlng/go-captcha"><img src="https://img.shields.io/github/last-commit/wenlng/go-captcha.svg"/></a>
+<a href="https://goreportcard.com/report/github.com/liu602348184/go-captcha"><img src="https://goreportcard.com/badge/github.com/liu602348184/go-captcha"/></a>
+<a href="https://godoc.org/github.com/liu602348184/go-captcha"><img src="https://godoc.org/github.com/liu602348184/go-captcha?status.svg"/></a>
+<a href="https://github.com/liu602348184/go-captcha/releases"><img src="https://img.shields.io/github/v/release/wenlng/go-captcha.svg"/></a>
+<a href="https://github.com/liu602348184/go-captcha/blob/master/LICENSE"><img src="https://img.shields.io/github/license/wenlng/go-captcha.svg"/></a>
+<a href="https://github.com/liu602348184/go-captcha"><img src="https://img.shields.io/github/stars/wenlng/go-captcha.svg"/></a>
+<a href="https://github.com/liu602348184/go-captcha"><img src="https://img.shields.io/github/last-commit/wenlng/go-captcha.svg"/></a>
 </div>
 
 <br/>
 
 > English | [中文](README_zh.md)
 
-<p><a href="https://github.com/wenlng/go-captcha">Go Captcha</a> is a behavior security CAPTCHA, which implements the generation of random verification text and the verification of click position information.</p>
+<p><a href="https://github.com/liu602348184/go-captcha">Go Captcha</a> is a behavior security CAPTCHA, which implements the generation of random verification text and the verification of click position information.</p>
 
 <p> ⭐️ If it helps you, please give a star.</p>
 
-- Github：[https://github.com/wenlng/go-captcha](https://github.com/wenlng/go-captcha)
-- Go Example：[https://github.com/wenlng/go-captcha-example](https://github.com/wenlng/go-captcha-example)
-- Vue Example：[https://github.com/wenlng/go-captcha-vue](https://github.com/wenlng/go-captcha-vue)
-- React Example：[https://github.com/wenlng/go-captcha-react](https://github.com/wenlng/go-captcha-react)
+- Github：[https://github.com/liu602348184/go-captcha](https://github.com/liu602348184/go-captcha)
+- Go Example：[https://github.com/liu602348184/go-captcha-example](https://github.com/liu602348184/go-captcha-example)
+- Vue Example：[https://github.com/liu602348184/go-captcha-vue](https://github.com/liu602348184/go-captcha-vue)
+- React Example：[https://github.com/liu602348184/go-captcha-react](https://github.com/liu602348184/go-captcha-react)
 - Online Demo：[http://47.104.180.148:8081/go_captcha_demo](http://47.104.180.148:8081/go_captcha_demo)
 
 <br/>
@@ -42,14 +42,14 @@ $ go get -u golang.org/x/image
 
 ## Install Captcha Module
 ```shell
-$ go get -u github.com/wenlng/go-captcha/captcha
+$ go get -u github.com/liu602348184/go-captcha/captcha
 ```
 
 ## Import Captcha Module
 ```go
 package main
 
-import "github.com/wenlng/go-captcha/captcha"
+import "github.com/liu602348184/go-captcha/captcha"
 
 func main(){
    // ...
@@ -61,7 +61,7 @@ func main(){
 package main
 import (
     "fmt"
-    "github.com/wenlng/go-captcha/captcha"
+    "github.com/liu602348184/go-captcha/captcha"
 )
 
 func main(){
@@ -96,7 +96,7 @@ func main(){
 package main
 import (
     "fmt"
-    "github.com/wenlng/go-captcha/captcha"
+    "github.com/liu602348184/go-captcha/captcha"
 )
 
 func main(){
@@ -122,7 +122,7 @@ Some fonts are attached by default. If other Chinese strings are set, you may ne
 package main
 import (
     "fmt"
-    "github.com/wenlng/go-captcha/captcha"
+    "github.com/liu602348184/go-captcha/captcha"
 )
 
 func main(){
@@ -150,13 +150,13 @@ func main(){
 ```
 
 ### Set Font File Configuration
-You can copy the resource files under the "https://github.com/wenlng/go-captcha-example/tree/main/resources" to the directory of your project.
+You can copy the resource files under the "https://github.com/liu602348184/go-captcha-example/tree/main/resources" to the directory of your project.
 ```go
 package main
 import (
     "fmt"
     "os"
-    "github.com/wenlng/go-captcha/captcha"
+    "github.com/liu602348184/go-captcha/captcha"
 )
 
 func main(){
@@ -182,7 +182,7 @@ import (
     "fmt"
     "golang.org/x/image/font"
     "os"
-    "github.com/wenlng/go-captcha/captcha"
+    "github.com/liu602348184/go-captcha/captcha"
 )
 
 func main(){
@@ -289,7 +289,7 @@ package main
 import (
     "fmt"
     "os"
-    "github.com/wenlng/go-captcha/captcha"
+    "github.com/liu602348184/go-captcha/captcha"
 )
 
 func main(){
@@ -369,7 +369,7 @@ package main
 import (
     "fmt"
     "os"
-    "github.com/wenlng/go-captcha/captcha"
+    "github.com/liu602348184/go-captcha/captcha"
 )
 
 func main(){
@@ -403,7 +403,7 @@ package main
 import (
     "fmt"
     "os"
-    "github.com/wenlng/go-captcha/captcha"
+    "github.com/liu602348184/go-captcha/captcha"
 )
 
 func main(){
